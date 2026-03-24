@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "5aa55093-2549-09c8-bc85-abdca48e2d48",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "箱子",
+    "expandInPanel": false,
+    "objGuid": "",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "rttiType": "Texture",
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "authorizationInfo": ""
+  }
+]

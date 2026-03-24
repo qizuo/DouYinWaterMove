@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "11ffcbb5-7da9-1c4e-1500-f66aef08dc86",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "穷困",
+    "expandInPanel": false,
+    "objGuid": "",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "rttiType": "Texture",
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "authorizationInfo": ""
+  }
+]

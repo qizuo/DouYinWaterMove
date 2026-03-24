@@ -1,0 +1,18 @@
+[
+  {
+    "guid": {
+      "a": "0cc168ab-ccaf-d7bf-8089-b3742693c9c6",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Images",
+    "objGuid": "",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    }
+  }
+]

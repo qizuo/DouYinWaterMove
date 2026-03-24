@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "e6c1dc08-cf9c-4501-4088-013f68a8e4f7",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "NewScriptNode",
+    "objGuid": "",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]

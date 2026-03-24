@@ -1,0 +1,28 @@
+[
+  {
+    "guid": {
+      "a": "5233cb02-7af1-a83c-9934-c35c2218303b",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "边框",
+    "expandInPanel": false,
+    "objGuid": "",
+    "version": "0.2.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "rttiType": "Texture",
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "authorizationInfo": ""
+  }
+]
