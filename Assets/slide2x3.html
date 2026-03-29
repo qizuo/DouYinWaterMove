@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2x3 滑块拼图游戏</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .tile {
+            transition: all 0.3s ease-in-out;
+            user-select: none;
+        }
+        .numbered {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .numbered:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+        .empty {
+            background-color: transparent;
+            border: 2px dashed #cbd5e0;
+        }
+        .win-animation {
+            animation: winPulse 1.5s infinite alternate;
+        }
+        @keyframes winPulse {
+            from { box-shadow: 0 0 5px rgba(0, 255, 0, 0.5); }
+            to { box-shadow: 0 0 20px rgba(0, 255, 0, 0.8), 0 0 30px green; }
+        }
+        #board {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 8px;
+            width: 300px;
+            height: 200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+    <div id="game-container" class="bg-white rounded-xl shadow-lg p-6 max-w-md w-full text-center space-y-4">
+        <h1 class="text-3xl font-bold text-gray-800">🧩 滑块拼图游戏</h1>
+        <div class="flex justify-between items-center px-2 py-1 bg-blue-50 rounded-lg">
+            <span class="font-semibold text-gray-700">
+                <i class="fas fa-sync-alt mr-1"></i> 步数：<span id="step-count">0</span>
+            </span>
+            <button id="reset-btn" class="px-3 py-1 bg-red-500 hover:bg-red-600 text-white rounded-lg transition duration-200">
+                <i class="fas fa-redo mr-1"></i>重置
+            </button>
+        </div>
+
+        <!-- 游戏板 -->
+        <div id="board" class="mx-auto border-2 border-dashed border-gray-300 rounded-lg p-2 bg-gray-50 relative">
+            <!-- Tiles will be inserted here by JS -->
+        </div>
+
+        <!-- Win Message -->
+        <div id="win-message" class="hidden mt-4 text-green-600 font-bold text-xl animate-bounce">
+            🎉恭喜你！完成了拼图🎉
+        </div>
+
+        <!-- Game Info Panel -->
+        <details class="mt-4 group open:text-left text-sm text-gray-600 cursor-pointer">
+            <summary class="list-none text-center underline focus:outline-none">ℹ️ 查看玩法说明</summary>
+            <ul class="mt-2 pl-5 list-disc marker:text-blue-500 space-y-1">
+                <li>点击空白相邻的数字方块来移动它。</li>
+                <li>目标是将打乱后的数字按顺序排列好。</li>
+                <li>右上方可以查看步数并随时重置游戏。</li>
+            </ul>
+        </details>
+    </div>
+
+    <script>
+        // 2x3 滑块拼图游戏 - TypeScript转换为JavaScript实现
+        class SlidingPuzzle {
+          constructor(boardElement) {
+            this.board = boardElement;
+            this.state = [];
+            this.stepCount = 0;
+            this.rows = 2;
+            this.cols = 3;
+            this.init();
+          }
+
+          init() {
+            this.state = this.generateSolvablePuzzle();
+            this.render();
+            this.updateStepDisplay();
+          }
+
+          generateSolvablePuzzle() {
+            let numbers = Array.from({ length: this.rows * this.cols }, (_, i) => (i === 0 ? null : i));
+            
+            // 打乱数组
+            for (let i = numbers.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
+            }
+
+            // 确保可解（偶数逆序对）
+            while (!this.isSolvable(numbers.filter(n => n !== null))) {
+              for (let i = numbers.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
+              }
+            }
+
+            return numbers;
+          }
+
+          isSolvable(tiles) {
+            let inversions = 0;
+            for (let i = 0; i < tiles.length; i++) {
+              for (let j = i + 1; j < tiles.length; j++) {
+                if (tiles[i] > tiles[j]) inversions++;
+              }
+            }
+            return inversions % 2 === 0;
+          }
+
+          render() {
+            this.board.innerHTML = '';
+            this.state.forEach((num, index) => {
+              const tile = document.createElement('div');
+              tile.className = 'tile flex items-center justify-center text-2xl font-extrabold rounded-lg';
+              tile.dataset.index = index.toString();
+
+              if (num === null) {
+                tile.classList.add('empty');
+                tile.textContent = '';
+              } else {
+                tile.classList.add('numbered');
+                tile.textContent = num.toString();
+                tile.addEventListener('click', () => this.handleTileClick(index));
+              }
+
+              this.board.appendChild(tile);
+            });
+          }
+
+          handleTileClick(clickedIndex) {
+            const emptyIndex = this.state.indexOf(null);
+            if (this.canMove(clickedIndex, emptyIndex)) {
+              [this.state[clickedIndex], this.state[emptyIndex]] = [this.state[emptyIndex], this.state[clickedIndex]];
+              this.stepCount++;
+              this.render();
+              this.updateStepDisplay();
+              this.checkWin();
+            }
+          }
+
+          canMove(fromIndex, emptyIndex) {
+            const rowFrom = Math.floor(fromIndex / this.cols);
+            const colFrom = fromIndex % this.cols;
+            const rowEmpty = Math.floor(emptyIndex / this.cols);
+            const colEmpty = emptyIndex % this.cols;
+
+            return (
+              (rowFrom === rowEmpty && Math.abs(colFrom - colEmpty) === 1) ||
+              (colFrom === colEmpty && Math.abs(rowFrom - rowEmpty) === 1)
+            );
+          }
+
+          updateStepDisplay() {
+            const stepElement = document.getElementById('step-count');
+            if (stepElement) stepElement.textContent = this.stepCount.toString();
+          }
+
+          checkWin() {
+            // 检查是否完成拼图
+            const solved = Array.from({ length: this.rows * this.cols }, (_, i) => (i === 0 ? null : i));
+            if (JSON.stringify(this.state) === JSON.stringify(solved)) {
+              setTimeout(() => {
+                // 添加获胜动画效果
+                document.querySelectorAll('.numbered').forEach(el => {
+                  el.classList.add('win-animation');
+                });
+                
+                // 显示获胜消息
+                const winMessage = document.getElementById('win-message');
+                if (winMessage) {
+                  winMessage.classList.remove('hidden');
+                }
+              }, 300);
+            }
+          }
+
+          reset() {
+            this.stepCount = 0;
+            const winMessage = document.getElementById('win-message');
+            if (winMessage) {
+              winMessage.classList.add('hidden');
+            }
+            this.state = this.generateSolvablePuzzle();
+            this.render();
+            this.updateStepDisplay();
+            document.querySelectorAll('.numbered').forEach(el => {
+              el.classList.remove('win-animation');
+            });
+          }
+        }
+
+        // 页面加载完成后初始化游戏
+        document.addEventListener('DOMContentLoaded', () => {
+          const boardElement = document.getElementById('board');
+          if (boardElement) {
+            const game = new SlidingPuzzle(boardElement);
+
+            // 绑定重置按钮
+            const resetBtn = document.getElementById('reset-btn');
+            if (resetBtn) {
+              resetBtn.addEventListener('click', () => game.reset());
+            }
+          }
+        });
+    </script>
+</body>
+</html>
