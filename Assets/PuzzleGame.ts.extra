@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "e6c1dc08-cf9c-4501-4088-013f68a8e4f7",
+      "a": "50bf2c67-2276-19ad-3d3d-946863153afb",
       "b": ""
     },
     "extraType": "ResItemJSScript",
-    "name": "NewScriptNode",
+    "name": "PuzzleGame",
     "objGuid": "",
     "version": "0.1.0",
     "authorizationInfo": "",

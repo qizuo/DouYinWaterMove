@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "7e4abb96-0ddd-0244-5fa6-6a3cb4c5adde",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "cubeUp",
+    "objGuid": "",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

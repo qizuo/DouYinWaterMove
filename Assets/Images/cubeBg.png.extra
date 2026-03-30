@@ -1,0 +1,30 @@
+[
+  {
+    "guid": {
+      "a": "7280c986-b801-29cc-728b-eb52f35a4fb9",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "cubeBg",
+    "objGuid": "",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false
+  }
+]

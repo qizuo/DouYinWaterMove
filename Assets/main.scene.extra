@@ -139,12 +139,12 @@
   },
   {
     "guid": {
-      "a": "8e943ca9-cd59-1376-a9cf-8632ef9d5c51",
+      "a": "aa30cb9e-b9ea-01b4-c3f3-fb3b4013b88d",
       "b": ""
     },
-    "objGuid": "Guid(5514405965679060679, 15509484508022013873)",
+    "objGuid": "Guid(4775844196431143934, 17980585874259515563)",
     "extraType": "Entity",
-    "name": "一袋钱",
+    "name": "cubeBg1",
     "version": "0.1.0",
     "rttiType": "SceneObject",
     "expanded": true,
@@ -159,82 +159,10 @@
   },
   {
     "guid": {
-      "a": "60757b42-ef71-6803-ce7d-09700a9ca6a4",
+      "a": "d3954d38-9bbc-438b-797c-142c227ba5e1",
       "b": ""
     },
-    "objGuid": "Guid(5048971699885146504, 11723814809500817087)",
-    "extraType": "ScreenTransform",
-    "name": "2D 变换",
-    "version": "0.1.0",
-    "rttiType": "ScreenTransform",
-    "editable": true,
-    "_lazyUpgrateVersion": "0.0.0",
-    "extendedInfo": {
-      "isVisibleInInspector": true,
-      "expanded": false
-    },
-    "horizontalConstraint": 2,
-    "verticalConstraint": 2,
-    "linkageScale": 0,
-    "linkageSize": 0
-  },
-  {
-    "guid": {
-      "a": "d2dd7923-d536-5789-218d-80bb1a467bc1",
-      "b": ""
-    },
-    "objGuid": "Guid(5490728875791386606, 17965486017770191525)",
-    "extraType": "Image",
-    "name": "图片",
-    "version": "0.1.0",
-    "rttiType": "Image",
-    "editable": true,
-    "_lazyUpgrateVersion": "0.0.0",
-    "extendedInfo": {
-      "isVisibleInInspector": true,
-      "expanded": true
-    },
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
-    "segBlendMode": "Normal_v2",
-    "segRadius": 0.5,
-    "segSoftness": 0.5,
-    "blendMode": "Normal",
-    "sizeMode": 0,
-    "isScreenImage": true,
-    "drawMode": "Normal",
-    "filledType": 0,
-    "startPoint": 0,
-    "filledRange": 1,
-    "ellipseX": 1,
-    "ellipseY": 1,
-    "alphaNOPM": true
-  },
-  {
-    "guid": {
-      "a": "ab82f55b-9fb1-9c61-b81e-b1cb84156d9a",
-      "b": ""
-    },
-    "objGuid": "Guid(5261478944662742524, 10112784697339217287)",
-    "extraType": "Entity",
-    "name": "cup2",
-    "version": "0.1.0",
-    "rttiType": "SceneObject",
-    "expanded": true,
-    "type": "none",
-    "isAnimatorBound": false,
-    "modelGUID": "",
-    "createdEffectNodeKey": "effect_node_2D_foreground",
-    "disableSelection": false,
-    "hiddenInHierarchy": false,
-    "editorTags": [],
-    "entityPanel": "2D"
-  },
-  {
-    "guid": {
-      "a": "5f07115a-034a-fdfd-bf9d-9e6913fa7727",
-      "b": ""
-    },
-    "objGuid": "Guid(5357161002357589739, 8266634086198733187)",
+    "objGuid": "Guid(4880717718359479211, 6483154847126862502)",
     "extraType": "ScreenTransform",
     "name": "2D 变换",
     "version": "0.1.0",
@@ -252,10 +180,10 @@
   },
   {
     "guid": {
-      "a": "d931c40f-3fd3-7365-46a5-8df4349a0181",
+      "a": "6f03c6b4-cd80-3d82-3c2d-2bb03fa4fa7b",
       "b": ""
     },
-    "objGuid": "Guid(4691723425804407329, 1539648664775963037)",
+    "objGuid": "Guid(5064603438822875665, 13150707813409720470)",
     "extraType": "Image",
     "name": "图片",
     "version": "0.1.0",
@@ -280,5 +208,1150 @@
     "ellipseX": 1,
     "ellipseY": 1,
     "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "ffe61451-7dbf-474b-2bb8-d513816d86a0",
+      "b": ""
+    },
+    "objGuid": "Guid(4677323951721091576, 9710856883380602522)",
+    "extraType": "Entity",
+    "name": "cubeUp1",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": false,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "84ca4ebb-d11c-fe28-c2ab-76f0c848dce4",
+      "b": ""
+    },
+    "objGuid": "Guid(5346345166267428095, 15964255856962293439)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "830080a2-671f-572d-9ef0-079a65310ccf",
+      "b": ""
+    },
+    "objGuid": "Guid(5473626711327717100, 6653671886967646653)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "09b5a29b-fdaf-d52a-2b5e-3d69156cddba",
+      "b": ""
+    },
+    "objGuid": "Guid(5226898831236414196, 229629178938594223)",
+    "extraType": "Entity",
+    "name": "cubeBg2",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "81448446-e665-21d4-d514-8d799c616164",
+      "b": ""
+    },
+    "objGuid": "Guid(5552949339171493331, 5937702078803574426)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "98ae1dcb-9d35-7c47-72f8-dd3a8c6f04af",
+      "b": ""
+    },
+    "objGuid": "Guid(5502879003744940476, 14084842647815434430)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "d040cf0d-ce19-70d2-225c-032bad9c3b4d",
+      "b": ""
+    },
+    "objGuid": "Guid(5247183844705901557, 5887020139923478921)",
+    "extraType": "Entity",
+    "name": "cubeBg3",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "07854d1d-3e0d-2805-f5d1-b9199f9255e4",
+      "b": ""
+    },
+    "objGuid": "Guid(5334794447915453349, 16033982748336437150)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "992c3774-7d4b-2dae-0e9e-f79c0bcb6e95",
+      "b": ""
+    },
+    "objGuid": "Guid(5084308414558873803, 9406004619999824516)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "d81cc5ec-ad32-2fcf-8dd3-fefe0f4a15a4",
+      "b": ""
+    },
+    "objGuid": "Guid(5218119830133654086, 5809820364305126844)",
+    "extraType": "Entity",
+    "name": "cubeBg4",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "46e5a01f-80d0-ab94-6880-f72bdfd8735b",
+      "b": ""
+    },
+    "objGuid": "Guid(4848831151100073799, 14777254558181101971)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "ed5ae923-1e4a-117b-2927-4a0f87081863",
+      "b": ""
+    },
+    "objGuid": "Guid(5572064578805918510, 8411796109899366555)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "64e80c11-286d-a4cc-cad8-8959db649411",
+      "b": ""
+    },
+    "objGuid": "Guid(5409076466990085125, 4579525767313356185)",
+    "extraType": "Entity",
+    "name": "cubeBg5",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "429c5ff9-687c-249a-b625-cf24d1ede72f",
+      "b": ""
+    },
+    "objGuid": "Guid(5498671317538924380, 8671012012313527994)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "1dee7a9a-b3fa-4e10-2003-90d1590a6ccd",
+      "b": ""
+    },
+    "objGuid": "Guid(5531013378608930775, 14104989311908127133)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "fa788529-4a77-ed0f-d9f6-d4cbd8d74ec2",
+      "b": ""
+    },
+    "objGuid": "Guid(5301924760240263860, 72247643188194495)",
+    "extraType": "Entity",
+    "name": "cubeBg6",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "3872db8f-5808-90ad-81d7-835565856c4d",
+      "b": ""
+    },
+    "objGuid": "Guid(4798522342594864433, 1734772487149125546)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "4523d132-ed2c-afe9-7819-f084554830ad",
+      "b": ""
+    },
+    "objGuid": "Guid(5071004877892376656, 2246555068374385041)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "e7144118-74ed-51c2-668b-f6c82d667ac6",
+      "b": ""
+    },
+    "objGuid": "Guid(5683051021096942996, 4520651024665272216)",
+    "extraType": "Entity",
+    "name": "text",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "b2e4b5df-4a29-19c9-3b7d-a61fa175c57a",
+      "b": ""
+    },
+    "objGuid": "Guid(4949441061689207702, 2657306741190605493)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "0083d25e-2e10-fa3c-96a9-7d4b1adafd04",
+      "b": ""
+    },
+    "objGuid": "Guid(4714846733640860034, 8009732858582172306)",
+    "extraType": "Text2D",
+    "name": "文字",
+    "version": "1.0.0",
+    "rttiType": "Text",
+    "editable": true,
+    "_lazyUpgrateVersion": "1.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "artTextDropdown": "",
+    "artTextNameDropdown": "00000000-0000-0000-0000-000000008000",
+    "boxDimension": 0,
+    "totalAnimationTime": 0,
+    "inAnimationAssetID": "",
+    "loopAnimationAssetID": "",
+    "outAnimationAssetID": "",
+    "inAnimationDuration": 0,
+    "loopAnimationDuration": 0,
+    "outAnimationDuration": 0
+  },
+  {
+    "guid": {
+      "a": "4f34da8a-fafc-81b2-523a-47f4210478c1",
+      "b": ""
+    },
+    "objGuid": "Guid(5040956644651451248, 9580207351395720622)",
+    "extraType": "UserEditCtrl",
+    "name": "component_text_dyeh",
+    "version": "0.1.0",
+    "rttiType": "UserEditCtrl",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": false,
+      "expanded": true
+    }
+  },
+  {
+    "guid": {
+      "a": "c8ec5838-da51-e9ae-44bb-b63ff59cc91d",
+      "b": ""
+    },
+    "objGuid": "Guid(5513887392699560466, 8846266001752499866)",
+    "extraType": "Entity",
+    "name": "cubeUp2",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": false,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "d2615d70-7973-50bc-8a76-7bbe03486016",
+      "b": ""
+    },
+    "objGuid": "Guid(5253197677744825886, 16914598735109517197)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "1746f6da-682b-6520-0326-8ecf690bd401",
+      "b": ""
+    },
+    "objGuid": "Guid(5411228205399861357, 8874482389130577025)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "b0ed59e1-e814-8cc4-2c24-6266dbb4bef4",
+      "b": ""
+    },
+    "objGuid": "Guid(5568377320630626607, 4194070094741526679)",
+    "extraType": "Entity",
+    "name": "text",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "8b168e85-3d3d-42a8-c7c0-98eed184eec8",
+      "b": ""
+    },
+    "objGuid": "Guid(5348809927487562000, 2452363249075403702)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "79ac6896-d079-36e7-1aa5-a8d8134b58d3",
+      "b": ""
+    },
+    "objGuid": "Guid(5044016201376235785, 1439496492184594617)",
+    "extraType": "Text2D",
+    "name": "文字",
+    "version": "1.0.0",
+    "rttiType": "Text",
+    "editable": true,
+    "_lazyUpgrateVersion": "1.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "artTextDropdown": "",
+    "artTextNameDropdown": "00000000-0000-0000-0000-000000008000",
+    "boxDimension": 0,
+    "totalAnimationTime": 0,
+    "inAnimationAssetID": "",
+    "loopAnimationAssetID": "",
+    "outAnimationAssetID": "",
+    "inAnimationDuration": 0,
+    "loopAnimationDuration": 0,
+    "outAnimationDuration": 0
+  },
+  {
+    "guid": {
+      "a": "3b7082fc-3b9f-56d0-f17e-26570697f0db",
+      "b": ""
+    },
+    "objGuid": "Guid(5437591719606495895, 17135922628322437559)",
+    "extraType": "UserEditCtrl",
+    "name": "component_text_dyeh",
+    "version": "0.1.0",
+    "rttiType": "UserEditCtrl",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": false,
+      "expanded": true
+    }
+  },
+  {
+    "guid": {
+      "a": "33ed79d3-ae36-f625-d322-3814cbd8987d",
+      "b": ""
+    },
+    "objGuid": "Guid(5596657053362792186, 12840473752623022518)",
+    "extraType": "Entity",
+    "name": "cubeUp3",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": false,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "8f2bfc67-44e7-9196-2b54-445fbccd468d",
+      "b": ""
+    },
+    "objGuid": "Guid(5179266605089549886, 13964855182215821748)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "4a0ddb6b-2d87-5886-0af8-74f962a49680",
+      "b": ""
+    },
+    "objGuid": "Guid(4652827714498203210, 17073437263838526350)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "ec9499c2-3f68-be15-ff6c-d87d41742bf0",
+      "b": ""
+    },
+    "objGuid": "Guid(4793814063209210598, 8460359937463079588)",
+    "extraType": "Entity",
+    "name": "text",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "4db57b1f-eb53-00bc-408d-db5d386fc317",
+      "b": ""
+    },
+    "objGuid": "Guid(4700562427710603835, 17165030391491458194)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "600f17b3-5fbd-0294-8936-fb787c38d8a7",
+      "b": ""
+    },
+    "objGuid": "Guid(5127899956432070172, 7843706835241023399)",
+    "extraType": "Text2D",
+    "name": "文字",
+    "version": "1.0.0",
+    "rttiType": "Text",
+    "editable": true,
+    "_lazyUpgrateVersion": "1.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "artTextDropdown": "",
+    "artTextNameDropdown": "00000000-0000-0000-0000-000000008000",
+    "boxDimension": 0,
+    "totalAnimationTime": 0,
+    "inAnimationAssetID": "",
+    "loopAnimationAssetID": "",
+    "outAnimationAssetID": "",
+    "inAnimationDuration": 0,
+    "loopAnimationDuration": 0,
+    "outAnimationDuration": 0
+  },
+  {
+    "guid": {
+      "a": "4b761923-2aa3-15af-609b-d27a38aaae8b",
+      "b": ""
+    },
+    "objGuid": "Guid(5397996330302895786, 1803584463536255914)",
+    "extraType": "UserEditCtrl",
+    "name": "component_text_dyeh",
+    "version": "0.1.0",
+    "rttiType": "UserEditCtrl",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": false,
+      "expanded": true
+    }
+  },
+  {
+    "guid": {
+      "a": "4bd37047-67a7-8ce5-a94f-ecbc061f3692",
+      "b": ""
+    },
+    "objGuid": "Guid(5168800714074830519, 4399272874324092084)",
+    "extraType": "Entity",
+    "name": "cubeUp4",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": false,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "39889b9d-3d31-949d-57d5-36b31307cdce",
+      "b": ""
+    },
+    "objGuid": "Guid(4667959449825798730, 17173728793980452771)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "265c01d1-bbee-be5f-cee6-1c1d5f5e6a7c",
+      "b": ""
+    },
+    "objGuid": "Guid(4735257282684926521, 9714310057120314273)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "000ee725-ff7d-806d-5ba6-ea0c39b6390a",
+      "b": ""
+    },
+    "objGuid": "Guid(4868793185854336927, 555430295858831258)",
+    "extraType": "Entity",
+    "name": "text",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "29eb9cd3-7845-250b-3698-5bb3e4bd5249",
+      "b": ""
+    },
+    "objGuid": "Guid(4849437300698388951, 13862984001290830464)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "c7b47376-bee0-5e73-1823-1bb4b3af2cab",
+      "b": ""
+    },
+    "objGuid": "Guid(4754758469565813852, 16500147903852529087)",
+    "extraType": "Text2D",
+    "name": "文字",
+    "version": "1.0.0",
+    "rttiType": "Text",
+    "editable": true,
+    "_lazyUpgrateVersion": "1.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "artTextDropdown": "",
+    "artTextNameDropdown": "00000000-0000-0000-0000-000000008000",
+    "boxDimension": 0,
+    "totalAnimationTime": 0,
+    "inAnimationAssetID": "",
+    "loopAnimationAssetID": "",
+    "outAnimationAssetID": "",
+    "inAnimationDuration": 0,
+    "loopAnimationDuration": 0,
+    "outAnimationDuration": 0
+  },
+  {
+    "guid": {
+      "a": "379a05cc-acb0-b91a-c01c-1523cad4235a",
+      "b": ""
+    },
+    "objGuid": "Guid(4969203964993128164, 11654076168189551803)",
+    "extraType": "UserEditCtrl",
+    "name": "component_text_dyeh",
+    "version": "0.1.0",
+    "rttiType": "UserEditCtrl",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": false,
+      "expanded": true
+    }
+  },
+  {
+    "guid": {
+      "a": "1ec7f293-c313-43a8-5345-b6350a7caf03",
+      "b": ""
+    },
+    "objGuid": "Guid(4737113997652423048, 8492585413922737059)",
+    "extraType": "Entity",
+    "name": "cubeUp5",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": false,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "f1538ba8-0494-6eb5-9551-29a06cd0aa81",
+      "b": ""
+    },
+    "objGuid": "Guid(4649579583053388162, 6075885946899445672)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "00c990b0-9b8d-f321-93da-82a7472f29b7",
+      "b": ""
+    },
+    "objGuid": "Guid(5468194120191831883, 1073951639506001799)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "664bb2cc-c061-3409-04e1-a5a474d99963",
+      "b": ""
+    },
+    "objGuid": "Guid(4758892994946169156, 6687917777872664984)",
+    "extraType": "Entity",
+    "name": "text",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": true,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "05905f64-9afd-860d-a868-3c69f018ac1b",
+      "b": ""
+    },
+    "objGuid": "Guid(4717539696261098447, 7956357896961728698)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "f3304a40-02f6-af9b-39b6-daf4dae07a4f",
+      "b": ""
+    },
+    "objGuid": "Guid(5367069021662819408, 5691619705907822218)",
+    "extraType": "Text2D",
+    "name": "文字",
+    "version": "1.0.0",
+    "rttiType": "Text",
+    "editable": true,
+    "_lazyUpgrateVersion": "1.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "artTextDropdown": "",
+    "artTextNameDropdown": "00000000-0000-0000-0000-000000008000",
+    "boxDimension": 0,
+    "totalAnimationTime": 0,
+    "inAnimationAssetID": "",
+    "loopAnimationAssetID": "",
+    "outAnimationAssetID": "",
+    "inAnimationDuration": 0,
+    "loopAnimationDuration": 0,
+    "outAnimationDuration": 0
+  },
+  {
+    "guid": {
+      "a": "8b544462-1feb-712a-aff0-16570dcc6122",
+      "b": ""
+    },
+    "objGuid": "Guid(5747785978102388749, 6448293732537414318)",
+    "extraType": "UserEditCtrl",
+    "name": "component_text_dyeh",
+    "version": "0.1.0",
+    "rttiType": "UserEditCtrl",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": false,
+      "expanded": true
+    }
   }
 ]

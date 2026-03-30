@@ -1,6 +1,6 @@
 {
   "name": "未命名",
-  "lastModified": "Tue, 24 Mar 2026 12:08:07 GMT",
+  "lastModified": "Mon, 30 Mar 2026 09:23:07 GMT",
   "version": "8.1.0",
   "toolName": "Douyin AR",
   "renderNames": {
@@ -69,9 +69,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 518835303,
-  "durationCreation": 41402466,
-  "durationBackground": 38737356,
+  "durationToCreate": 1027335606,
+  "durationCreation": 44485706,
+  "durationBackground": 40341082,
   "effectHint": "",
   "templateID": "",
   "overwriteBuiltinGAN": 1,
@@ -93,10 +93,11 @@
   "soundStartTime": 0,
   "soundEndTime": 0,
   "LastVideoInput": {
-    "type": "preview_fullbody",
-    "name": "preview_single_body_normal||女",
-    "index": 12,
-    "resourceUrl": "C:\\Users\\37289\\AppData\\Local\\DouyinAR\\Shared\\Resources\\PreviewResource\\video\\preview_fullbody\\female\\female_body_normal.mp4"
+    "type": "preview_environment",
+    "name": "preview_env_ground",
+    "index": 75,
+    "resourceUrl": "C:\\Users\\37289\\AppData\\Local\\DouyinAR\\Shared\\Resources\\PreviewResource\\video\\preview_environment\\ground3.mp4"
   },
-  "selectedIdList": []
+  "selectedIdList": [],
+  "lastSceneView": 0
 }

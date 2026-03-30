@@ -1,0 +1,21 @@
+[
+  {
+    "guid": {
+      "a": "d518a3f9-e028-c089-3202-9d402ba84385",
+      "b": ""
+    },
+    "extraType": "ResItemJSScript",
+    "name": "CubeUp2",
+    "objGuid": "",
+    "version": "0.1.0",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "scriptAnnotation": [],
+    "needCompile": true,
+    "isUserScript": true
+  }
+]
