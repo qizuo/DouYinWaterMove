@@ -6,7 +6,6 @@
     },
     "extraType": "ResItemJSScript",
     "name": "CubeUp2",
-    "objGuid": "",
     "version": "0.1.0",
     "authorizationInfo": "",
     "extendedInfo": {
@@ -14,6 +13,9 @@
       "hideInPanel": false,
       "expandInPanel": false
     },
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\37289\\AppData\\Local\\DouyinAR\\Instances\\Instance2\\CacheDir\\CrossProjCopy\\copy\\Assets\\CubeUp2.ts",
+    "references": [],
     "scriptAnnotation": [],
     "needCompile": true,
     "isUserScript": true

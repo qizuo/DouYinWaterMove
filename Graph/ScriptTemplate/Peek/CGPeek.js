@@ -1,1 +1,0 @@
-let BaseNode=require("../Utils/BaseNode").BaseNode,APJS=require("../../../amazingpro");class CGPeek extends BaseNode{constructor(){super()}getOutput(e){return this.inputs[0]()}}exports.CGPeek=CGPeek;

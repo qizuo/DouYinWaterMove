@@ -1,7 +1,7 @@
 {
   "name": "未命名",
-  "lastModified": "Mon, 30 Mar 2026 09:23:07 GMT",
-  "version": "8.1.0",
+  "lastModified": "Tue, 31 Mar 2026 12:31:11 GMT",
+  "version": "8.3.0",
   "toolName": "Douyin AR",
   "renderNames": {
     "0": "Default Layer",
@@ -69,9 +69,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 1027335606,
-  "durationCreation": 44485706,
-  "durationBackground": 40341082,
+  "durationToCreate": 9482873,
+  "durationCreation": 7401065,
+  "durationBackground": 5900395,
   "effectHint": "",
   "templateID": "",
   "overwriteBuiltinGAN": 1,
@@ -81,14 +81,14 @@
   "retouchBuiltInSetting": 2,
   "created": {
     "toolName": "Douyin AR",
-    "version": "7.6.5",
+    "version": "8.3.0",
     "osName": "windows",
-    "timeStamp": "Wed, 18 Mar 2026 12:00:52 GMT"
+    "timeStamp": "Tue, 31 Mar 2026 09:53:09 GMT"
   },
-  "projectID": "2e6c952a-e942-4366-c0ea-830df6bf1f50",
+  "projectID": "7a77707c-d096-9261-faa8-705f10f872a3",
   "isNewCreatedProject": true,
-  "preUpgradeVersion": "8.1.0",
-  "previewProjID": "ee609432-a36f-c2c5-95fa-400e4d86d9f5",
+  "preUpgradeVersion": "8.3.0",
+  "previewProjID": "e7ce56e1-1317-73bd-b81d-3d220fff1ad3",
   "templateName": "",
   "soundStartTime": 0,
   "soundEndTime": 0,
@@ -98,6 +98,7 @@
     "index": 75,
     "resourceUrl": "C:\\Users\\37289\\AppData\\Local\\DouyinAR\\Shared\\Resources\\PreviewResource\\video\\preview_environment\\ground3.mp4"
   },
-  "selectedIdList": [],
-  "lastSceneView": 0
+  "selectedIdList": [
+    "amz:Guid(4737113997652423048, 8492585413922737059)"
+  ]
 }

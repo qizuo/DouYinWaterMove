@@ -6,7 +6,6 @@
     },
     "extraType": "ResItemPNGImage",
     "name": "cubeUp",
-    "objGuid": "",
     "version": "0.2.0",
     "rttiType": "Texture",
     "authorizationInfo": "",
@@ -25,6 +24,9 @@
     "wrapModeS": 0,
     "wrapModeT": 0,
     "wrapModeR": 0,
-    "premultiplyAlpha": false
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "resourceFilePath": "C:\\Users\\37289\\AppData\\Local\\DouyinAR\\Instances\\Instance2\\CacheDir\\CrossProjCopy\\copy\\Assets\\Images\\cubeUp.png",
+    "references": []
   }
 ]

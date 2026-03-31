@@ -1,11 +1,11 @@
 [
   {
     "guid": {
-      "a": "1ec93bf1-b3b6-566c-54b6-38c2a25cccb1",
+      "a": "5f122c60-38ad-0e86-b178-4bc77bc816b1",
       "b": ""
     },
     "extraType": "ResItemJSScript",
-    "name": "CubeUp",
+    "name": "NewScriptNode",
     "version": "0.1.0",
     "authorizationInfo": "",
     "extendedInfo": {
@@ -14,10 +14,9 @@
       "expandInPanel": false
     },
     "objGuid": "",
-    "resourceFilePath": "C:\\Users\\37289\\AppData\\Local\\DouyinAR\\Instances\\Instance2\\CacheDir\\CrossProjCopy\\copy\\Assets\\CubeUp.ts",
     "references": [],
     "scriptAnnotation": [],
-    "needCompile": true,
+    "needCompile": false,
     "isUserScript": true
   }
 ]

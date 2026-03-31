@@ -11,10 +11,10 @@
   },
   {
     "guid": {
-      "a": "fa14f22c-8b96-22ae-7f9a-587963653bdb",
+      "a": "c728f5fd-e309-8b03-0830-77483af98a22",
       "b": ""
     },
-    "objGuid": "Guid(4659071331349187204, 17603440445938905785)",
+    "objGuid": "Guid(5661307234004318083, 7030616794985135779)",
     "extraType": "Entity",
     "name": "2D 前景",
     "version": "0.1.0",
@@ -30,10 +30,10 @@
   },
   {
     "guid": {
-      "a": "f1072697-a8b9-e29a-d27e-631352c4454d",
+      "a": "fd111af7-f315-3223-42f9-fd34173acf9e",
       "b": ""
     },
-    "objGuid": "Guid(4919054573782015239, 14537170860826857892)",
+    "objGuid": "Guid(5275560846921490759, 728751179025584014)",
     "extraType": "Transform",
     "name": "变换",
     "version": "0.1.0",
@@ -53,10 +53,10 @@
   },
   {
     "guid": {
-      "a": "39f979b6-536e-0cc0-04ae-0b4a7125238f",
+      "a": "41026484-d7d6-8a06-0eed-131348ff59d1",
       "b": ""
     },
-    "objGuid": "Guid(5573207511014519197, 9186726142684247216)",
+    "objGuid": "Guid(4818127094325807223, 2047519961078951313)",
     "extraType": "EffectNode",
     "name": "Render Group",
     "version": "0.1.0",
@@ -74,10 +74,10 @@
   },
   {
     "guid": {
-      "a": "b395df1b-e5b2-1b05-a1b6-562e60e9cf1f",
+      "a": "ef49b3f8-7b29-aa2e-2ac4-15017347eca9",
       "b": ""
     },
-    "objGuid": "Guid(5508668826461384129, 16777858176582630563)",
+    "objGuid": "Guid(4972564646022613226, 11420543803203023025)",
     "extraType": "Entity",
     "name": "2D 摄像机",
     "version": "0.1.0",
@@ -93,10 +93,10 @@
   },
   {
     "guid": {
-      "a": "1550b4ae-8039-bdeb-4557-1c9928502527",
+      "a": "e8d7bbb9-5c96-6c22-c1f4-9a0cd2abffb3",
       "b": ""
     },
-    "objGuid": "Guid(5553810361162953689, 13947494588046928297)",
+    "objGuid": "Guid(4736609858188672051, 5543154714675994784)",
     "extraType": "Transform",
     "name": "变换",
     "version": "0.1.0",
@@ -116,10 +116,10 @@
   },
   {
     "guid": {
-      "a": "b7720dfb-e7e9-742c-e334-0fff26e06d27",
+      "a": "e4df566e-9921-4db9-94ac-8b6e8f0d14bd",
       "b": ""
     },
-    "objGuid": "Guid(4770765461608928234, 15774180370968478637)",
+    "objGuid": "Guid(4629381945330736307, 6053111061636378000)",
     "extraType": "Camera",
     "name": "摄像机",
     "version": "0.4.0",
@@ -139,7 +139,7 @@
   },
   {
     "guid": {
-      "a": "aa30cb9e-b9ea-01b4-c3f3-fb3b4013b88d",
+      "a": "b08f195e-009a-6cd0-b3f9-8b22cba566eb",
       "b": ""
     },
     "objGuid": "Guid(4775844196431143934, 17980585874259515563)",
@@ -159,7 +159,7 @@
   },
   {
     "guid": {
-      "a": "d3954d38-9bbc-438b-797c-142c227ba5e1",
+      "a": "c0e813fe-d35f-803d-1180-9cd22a1c636b",
       "b": ""
     },
     "objGuid": "Guid(4880717718359479211, 6483154847126862502)",
@@ -180,7 +180,7 @@
   },
   {
     "guid": {
-      "a": "6f03c6b4-cd80-3d82-3c2d-2bb03fa4fa7b",
+      "a": "c6ec143a-1358-7c0d-d4a8-b21d5ea0a895",
       "b": ""
     },
     "objGuid": "Guid(5064603438822875665, 13150707813409720470)",
@@ -211,79 +211,7 @@
   },
   {
     "guid": {
-      "a": "ffe61451-7dbf-474b-2bb8-d513816d86a0",
-      "b": ""
-    },
-    "objGuid": "Guid(4677323951721091576, 9710856883380602522)",
-    "extraType": "Entity",
-    "name": "cubeUp1",
-    "version": "0.1.0",
-    "rttiType": "SceneObject",
-    "expanded": false,
-    "type": "none",
-    "isAnimatorBound": false,
-    "modelGUID": "",
-    "createdEffectNodeKey": "effect_node_2D_foreground",
-    "disableSelection": false,
-    "hiddenInHierarchy": false,
-    "editorTags": [],
-    "entityPanel": "2D"
-  },
-  {
-    "guid": {
-      "a": "84ca4ebb-d11c-fe28-c2ab-76f0c848dce4",
-      "b": ""
-    },
-    "objGuid": "Guid(5346345166267428095, 15964255856962293439)",
-    "extraType": "ScreenTransform",
-    "name": "2D 变换",
-    "version": "0.1.0",
-    "rttiType": "ScreenTransform",
-    "editable": true,
-    "_lazyUpgrateVersion": "0.1.0",
-    "extendedInfo": {
-      "isVisibleInInspector": true,
-      "expanded": false
-    },
-    "horizontalConstraint": 2,
-    "verticalConstraint": 2,
-    "linkageScale": 0,
-    "linkageSize": 0
-  },
-  {
-    "guid": {
-      "a": "830080a2-671f-572d-9ef0-079a65310ccf",
-      "b": ""
-    },
-    "objGuid": "Guid(5473626711327717100, 6653671886967646653)",
-    "extraType": "Image",
-    "name": "图片",
-    "version": "0.1.0",
-    "rttiType": "Image",
-    "editable": true,
-    "_lazyUpgrateVersion": "0.0.0",
-    "extendedInfo": {
-      "isVisibleInInspector": true,
-      "expanded": true
-    },
-    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
-    "segBlendMode": "Normal_v2",
-    "segRadius": 0.5,
-    "segSoftness": 0.5,
-    "blendMode": "Normal",
-    "sizeMode": 0,
-    "isScreenImage": true,
-    "drawMode": "Normal",
-    "filledType": 0,
-    "startPoint": 0,
-    "filledRange": 1,
-    "ellipseX": 1,
-    "ellipseY": 1,
-    "alphaNOPM": true
-  },
-  {
-    "guid": {
-      "a": "09b5a29b-fdaf-d52a-2b5e-3d69156cddba",
+      "a": "2f918403-89cc-df0b-27e6-4f573fc4b25d",
       "b": ""
     },
     "objGuid": "Guid(5226898831236414196, 229629178938594223)",
@@ -303,7 +231,7 @@
   },
   {
     "guid": {
-      "a": "81448446-e665-21d4-d514-8d799c616164",
+      "a": "67eb746c-9314-9f0d-4bae-e707ee6e0308",
       "b": ""
     },
     "objGuid": "Guid(5552949339171493331, 5937702078803574426)",
@@ -324,7 +252,7 @@
   },
   {
     "guid": {
-      "a": "98ae1dcb-9d35-7c47-72f8-dd3a8c6f04af",
+      "a": "1f0adbcb-1a8a-c50e-972f-33487950c3f6",
       "b": ""
     },
     "objGuid": "Guid(5502879003744940476, 14084842647815434430)",
@@ -355,7 +283,7 @@
   },
   {
     "guid": {
-      "a": "d040cf0d-ce19-70d2-225c-032bad9c3b4d",
+      "a": "7fc356d2-be18-14b3-6c56-5c80aeff8464",
       "b": ""
     },
     "objGuid": "Guid(5247183844705901557, 5887020139923478921)",
@@ -375,7 +303,7 @@
   },
   {
     "guid": {
-      "a": "07854d1d-3e0d-2805-f5d1-b9199f9255e4",
+      "a": "a4449be6-37b9-ce2b-2634-fc45b472006f",
       "b": ""
     },
     "objGuid": "Guid(5334794447915453349, 16033982748336437150)",
@@ -396,7 +324,7 @@
   },
   {
     "guid": {
-      "a": "992c3774-7d4b-2dae-0e9e-f79c0bcb6e95",
+      "a": "bef71b2b-5546-38a2-3937-85bf93359206",
       "b": ""
     },
     "objGuid": "Guid(5084308414558873803, 9406004619999824516)",
@@ -427,7 +355,7 @@
   },
   {
     "guid": {
-      "a": "d81cc5ec-ad32-2fcf-8dd3-fefe0f4a15a4",
+      "a": "1a9a62a9-4378-7448-2ab0-48e6275054a8",
       "b": ""
     },
     "objGuid": "Guid(5218119830133654086, 5809820364305126844)",
@@ -447,7 +375,7 @@
   },
   {
     "guid": {
-      "a": "46e5a01f-80d0-ab94-6880-f72bdfd8735b",
+      "a": "c747fd08-5c7c-56f7-715b-b0d95ec35e38",
       "b": ""
     },
     "objGuid": "Guid(4848831151100073799, 14777254558181101971)",
@@ -468,7 +396,7 @@
   },
   {
     "guid": {
-      "a": "ed5ae923-1e4a-117b-2927-4a0f87081863",
+      "a": "028b9e27-17ab-a437-3009-dfd93410da07",
       "b": ""
     },
     "objGuid": "Guid(5572064578805918510, 8411796109899366555)",
@@ -499,7 +427,7 @@
   },
   {
     "guid": {
-      "a": "64e80c11-286d-a4cc-cad8-8959db649411",
+      "a": "9bef82d0-927c-92d2-2e04-0316ddb086ff",
       "b": ""
     },
     "objGuid": "Guid(5409076466990085125, 4579525767313356185)",
@@ -519,7 +447,7 @@
   },
   {
     "guid": {
-      "a": "429c5ff9-687c-249a-b625-cf24d1ede72f",
+      "a": "c418bf7f-3857-63cb-3f07-d1b308559809",
       "b": ""
     },
     "objGuid": "Guid(5498671317538924380, 8671012012313527994)",
@@ -540,7 +468,7 @@
   },
   {
     "guid": {
-      "a": "1dee7a9a-b3fa-4e10-2003-90d1590a6ccd",
+      "a": "36cae85a-f7e7-b3e1-3315-f0d62853ba0b",
       "b": ""
     },
     "objGuid": "Guid(5531013378608930775, 14104989311908127133)",
@@ -571,7 +499,7 @@
   },
   {
     "guid": {
-      "a": "fa788529-4a77-ed0f-d9f6-d4cbd8d74ec2",
+      "a": "73903917-babc-1661-ba5e-244d0594c6ed",
       "b": ""
     },
     "objGuid": "Guid(5301924760240263860, 72247643188194495)",
@@ -591,7 +519,7 @@
   },
   {
     "guid": {
-      "a": "3872db8f-5808-90ad-81d7-835565856c4d",
+      "a": "44fb69e7-95a7-5568-000a-5e830e2be51c",
       "b": ""
     },
     "objGuid": "Guid(4798522342594864433, 1734772487149125546)",
@@ -612,7 +540,7 @@
   },
   {
     "guid": {
-      "a": "4523d132-ed2c-afe9-7819-f084554830ad",
+      "a": "09d790b6-3322-9403-414e-e1c1d3c6d671",
       "b": ""
     },
     "objGuid": "Guid(5071004877892376656, 2246555068374385041)",
@@ -643,7 +571,79 @@
   },
   {
     "guid": {
-      "a": "e7144118-74ed-51c2-668b-f6c82d667ac6",
+      "a": "37474c39-f92b-9049-1139-455af6844e08",
+      "b": ""
+    },
+    "objGuid": "Guid(4677323951721091576, 9710856883380602522)",
+    "extraType": "Entity",
+    "name": "cubeUp1",
+    "version": "0.1.0",
+    "rttiType": "SceneObject",
+    "expanded": false,
+    "type": "none",
+    "isAnimatorBound": false,
+    "modelGUID": "",
+    "createdEffectNodeKey": "effect_node_2D_foreground",
+    "disableSelection": false,
+    "hiddenInHierarchy": false,
+    "editorTags": [],
+    "entityPanel": "2D"
+  },
+  {
+    "guid": {
+      "a": "9cacc36e-0ae0-71c8-6627-d431972b2b76",
+      "b": ""
+    },
+    "objGuid": "Guid(5346345166267428095, 15964255856962293439)",
+    "extraType": "ScreenTransform",
+    "name": "2D 变换",
+    "version": "0.1.0",
+    "rttiType": "ScreenTransform",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.1.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": false
+    },
+    "horizontalConstraint": 2,
+    "verticalConstraint": 2,
+    "linkageScale": 0,
+    "linkageSize": 0
+  },
+  {
+    "guid": {
+      "a": "c5e603d8-6c26-26d3-3209-0914700bfcc8",
+      "b": ""
+    },
+    "objGuid": "Guid(5473626711327717100, 6653671886967646653)",
+    "extraType": "Image",
+    "name": "图片",
+    "version": "0.1.0",
+    "rttiType": "Image",
+    "editable": true,
+    "_lazyUpgrateVersion": "0.0.0",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "expanded": true
+    },
+    "sharedMaterial": "00000000-0000-0000-0000-000000000132",
+    "segBlendMode": "Normal_v2",
+    "segRadius": 0.5,
+    "segSoftness": 0.5,
+    "blendMode": "Normal",
+    "sizeMode": 0,
+    "isScreenImage": true,
+    "drawMode": "Normal",
+    "filledType": 0,
+    "startPoint": 0,
+    "filledRange": 1,
+    "ellipseX": 1,
+    "ellipseY": 1,
+    "alphaNOPM": true
+  },
+  {
+    "guid": {
+      "a": "dd373661-ae8f-a1d3-7210-d4a96109095a",
       "b": ""
     },
     "objGuid": "Guid(5683051021096942996, 4520651024665272216)",
@@ -663,7 +663,7 @@
   },
   {
     "guid": {
-      "a": "b2e4b5df-4a29-19c9-3b7d-a61fa175c57a",
+      "a": "4e5a6360-bfc8-d1b8-be20-7e20f0614941",
       "b": ""
     },
     "objGuid": "Guid(4949441061689207702, 2657306741190605493)",
@@ -684,13 +684,13 @@
   },
   {
     "guid": {
-      "a": "0083d25e-2e10-fa3c-96a9-7d4b1adafd04",
+      "a": "cab331e8-d0b3-b39d-76a3-9417166e2d50",
       "b": ""
     },
     "objGuid": "Guid(4714846733640860034, 8009732858582172306)",
     "extraType": "Text2D",
     "name": "文字",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "rttiType": "Text",
     "editable": true,
     "_lazyUpgrateVersion": "1.0.0",
@@ -707,11 +707,12 @@
     "outAnimationAssetID": "",
     "inAnimationDuration": 0,
     "loopAnimationDuration": 0,
-    "outAnimationDuration": 0
+    "outAnimationDuration": 0,
+    "templateId": ""
   },
   {
     "guid": {
-      "a": "4f34da8a-fafc-81b2-523a-47f4210478c1",
+      "a": "37def39b-1724-e57f-d0d5-5dba26c2a236",
       "b": ""
     },
     "objGuid": "Guid(5040956644651451248, 9580207351395720622)",
@@ -728,7 +729,7 @@
   },
   {
     "guid": {
-      "a": "c8ec5838-da51-e9ae-44bb-b63ff59cc91d",
+      "a": "323b4c57-01a4-7a71-73c7-df99082375c4",
       "b": ""
     },
     "objGuid": "Guid(5513887392699560466, 8846266001752499866)",
@@ -748,7 +749,7 @@
   },
   {
     "guid": {
-      "a": "d2615d70-7973-50bc-8a76-7bbe03486016",
+      "a": "6c8bb4bc-de2d-8e5b-b1ac-6f55762a8455",
       "b": ""
     },
     "objGuid": "Guid(5253197677744825886, 16914598735109517197)",
@@ -769,7 +770,7 @@
   },
   {
     "guid": {
-      "a": "1746f6da-682b-6520-0326-8ecf690bd401",
+      "a": "a7f73894-3e1b-6629-939e-a397967620a6",
       "b": ""
     },
     "objGuid": "Guid(5411228205399861357, 8874482389130577025)",
@@ -800,7 +801,7 @@
   },
   {
     "guid": {
-      "a": "b0ed59e1-e814-8cc4-2c24-6266dbb4bef4",
+      "a": "e8dfa78b-10fa-fc4c-768e-47c959bce347",
       "b": ""
     },
     "objGuid": "Guid(5568377320630626607, 4194070094741526679)",
@@ -820,7 +821,7 @@
   },
   {
     "guid": {
-      "a": "8b168e85-3d3d-42a8-c7c0-98eed184eec8",
+      "a": "96cdb1e7-cb91-e0fb-65db-8cc85ea2d507",
       "b": ""
     },
     "objGuid": "Guid(5348809927487562000, 2452363249075403702)",
@@ -841,13 +842,13 @@
   },
   {
     "guid": {
-      "a": "79ac6896-d079-36e7-1aa5-a8d8134b58d3",
+      "a": "69e023ce-853f-a7a6-41b7-aed17852e993",
       "b": ""
     },
     "objGuid": "Guid(5044016201376235785, 1439496492184594617)",
     "extraType": "Text2D",
     "name": "文字",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "rttiType": "Text",
     "editable": true,
     "_lazyUpgrateVersion": "1.0.0",
@@ -864,11 +865,12 @@
     "outAnimationAssetID": "",
     "inAnimationDuration": 0,
     "loopAnimationDuration": 0,
-    "outAnimationDuration": 0
+    "outAnimationDuration": 0,
+    "templateId": ""
   },
   {
     "guid": {
-      "a": "3b7082fc-3b9f-56d0-f17e-26570697f0db",
+      "a": "5828f48d-c2f0-6e48-7b50-19e7e3f448e7",
       "b": ""
     },
     "objGuid": "Guid(5437591719606495895, 17135922628322437559)",
@@ -885,7 +887,7 @@
   },
   {
     "guid": {
-      "a": "33ed79d3-ae36-f625-d322-3814cbd8987d",
+      "a": "8a0b6727-bcaa-be79-1077-e8a22e54d391",
       "b": ""
     },
     "objGuid": "Guid(5596657053362792186, 12840473752623022518)",
@@ -905,7 +907,7 @@
   },
   {
     "guid": {
-      "a": "8f2bfc67-44e7-9196-2b54-445fbccd468d",
+      "a": "98c5d3c8-5123-11dd-b9e0-940c622acbf5",
       "b": ""
     },
     "objGuid": "Guid(5179266605089549886, 13964855182215821748)",
@@ -926,7 +928,7 @@
   },
   {
     "guid": {
-      "a": "4a0ddb6b-2d87-5886-0af8-74f962a49680",
+      "a": "9d39fdf9-1855-92cc-21cb-1578bad28108",
       "b": ""
     },
     "objGuid": "Guid(4652827714498203210, 17073437263838526350)",
@@ -957,7 +959,7 @@
   },
   {
     "guid": {
-      "a": "ec9499c2-3f68-be15-ff6c-d87d41742bf0",
+      "a": "faa20d6b-4fbb-aaaf-8b9a-7e823de50781",
       "b": ""
     },
     "objGuid": "Guid(4793814063209210598, 8460359937463079588)",
@@ -977,7 +979,7 @@
   },
   {
     "guid": {
-      "a": "4db57b1f-eb53-00bc-408d-db5d386fc317",
+      "a": "8eda3999-3101-1110-081c-17cec1d68376",
       "b": ""
     },
     "objGuid": "Guid(4700562427710603835, 17165030391491458194)",
@@ -998,13 +1000,13 @@
   },
   {
     "guid": {
-      "a": "600f17b3-5fbd-0294-8936-fb787c38d8a7",
+      "a": "f7fcf040-f3d2-3c14-94c8-79a4098cf0d9",
       "b": ""
     },
     "objGuid": "Guid(5127899956432070172, 7843706835241023399)",
     "extraType": "Text2D",
     "name": "文字",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "rttiType": "Text",
     "editable": true,
     "_lazyUpgrateVersion": "1.0.0",
@@ -1021,11 +1023,12 @@
     "outAnimationAssetID": "",
     "inAnimationDuration": 0,
     "loopAnimationDuration": 0,
-    "outAnimationDuration": 0
+    "outAnimationDuration": 0,
+    "templateId": ""
   },
   {
     "guid": {
-      "a": "4b761923-2aa3-15af-609b-d27a38aaae8b",
+      "a": "9808c069-aa01-d159-24f7-4297fa709918",
       "b": ""
     },
     "objGuid": "Guid(5397996330302895786, 1803584463536255914)",
@@ -1042,7 +1045,7 @@
   },
   {
     "guid": {
-      "a": "4bd37047-67a7-8ce5-a94f-ecbc061f3692",
+      "a": "6a143eaf-a0fc-6f08-4989-6e6b45c7fcbd",
       "b": ""
     },
     "objGuid": "Guid(5168800714074830519, 4399272874324092084)",
@@ -1062,7 +1065,7 @@
   },
   {
     "guid": {
-      "a": "39889b9d-3d31-949d-57d5-36b31307cdce",
+      "a": "1e86f330-3aaf-a2d2-4629-1bbc909b4f59",
       "b": ""
     },
     "objGuid": "Guid(4667959449825798730, 17173728793980452771)",
@@ -1083,7 +1086,7 @@
   },
   {
     "guid": {
-      "a": "265c01d1-bbee-be5f-cee6-1c1d5f5e6a7c",
+      "a": "70f52448-855f-0311-e6fd-ca4f0475057a",
       "b": ""
     },
     "objGuid": "Guid(4735257282684926521, 9714310057120314273)",
@@ -1114,7 +1117,7 @@
   },
   {
     "guid": {
-      "a": "000ee725-ff7d-806d-5ba6-ea0c39b6390a",
+      "a": "bf5c858e-e0f4-d7aa-6c48-d3ce622b632a",
       "b": ""
     },
     "objGuid": "Guid(4868793185854336927, 555430295858831258)",
@@ -1134,7 +1137,7 @@
   },
   {
     "guid": {
-      "a": "29eb9cd3-7845-250b-3698-5bb3e4bd5249",
+      "a": "ad86739c-7379-40d5-5725-9807e94c685a",
       "b": ""
     },
     "objGuid": "Guid(4849437300698388951, 13862984001290830464)",
@@ -1155,13 +1158,13 @@
   },
   {
     "guid": {
-      "a": "c7b47376-bee0-5e73-1823-1bb4b3af2cab",
+      "a": "09fdce5a-cf71-9016-2dec-2eda209d7793",
       "b": ""
     },
     "objGuid": "Guid(4754758469565813852, 16500147903852529087)",
     "extraType": "Text2D",
     "name": "文字",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "rttiType": "Text",
     "editable": true,
     "_lazyUpgrateVersion": "1.0.0",
@@ -1178,11 +1181,12 @@
     "outAnimationAssetID": "",
     "inAnimationDuration": 0,
     "loopAnimationDuration": 0,
-    "outAnimationDuration": 0
+    "outAnimationDuration": 0,
+    "templateId": ""
   },
   {
     "guid": {
-      "a": "379a05cc-acb0-b91a-c01c-1523cad4235a",
+      "a": "8fb00d43-13f8-1fe8-fa06-e198fc201069",
       "b": ""
     },
     "objGuid": "Guid(4969203964993128164, 11654076168189551803)",
@@ -1199,7 +1203,7 @@
   },
   {
     "guid": {
-      "a": "1ec7f293-c313-43a8-5345-b6350a7caf03",
+      "a": "2669ae22-0b58-ae73-c829-db29ae9e8e5d",
       "b": ""
     },
     "objGuid": "Guid(4737113997652423048, 8492585413922737059)",
@@ -1207,7 +1211,7 @@
     "name": "cubeUp5",
     "version": "0.1.0",
     "rttiType": "SceneObject",
-    "expanded": false,
+    "expanded": true,
     "type": "none",
     "isAnimatorBound": false,
     "modelGUID": "",
@@ -1219,7 +1223,7 @@
   },
   {
     "guid": {
-      "a": "f1538ba8-0494-6eb5-9551-29a06cd0aa81",
+      "a": "753d3d24-5da4-7759-28c5-63981aad9388",
       "b": ""
     },
     "objGuid": "Guid(4649579583053388162, 6075885946899445672)",
@@ -1240,7 +1244,7 @@
   },
   {
     "guid": {
-      "a": "00c990b0-9b8d-f321-93da-82a7472f29b7",
+      "a": "19a630ac-05d1-9bb5-9b46-f8ba069c7b7c",
       "b": ""
     },
     "objGuid": "Guid(5468194120191831883, 1073951639506001799)",
@@ -1271,7 +1275,7 @@
   },
   {
     "guid": {
-      "a": "664bb2cc-c061-3409-04e1-a5a474d99963",
+      "a": "649997f6-0217-f603-2504-eb02feaeb375",
       "b": ""
     },
     "objGuid": "Guid(4758892994946169156, 6687917777872664984)",
@@ -1291,7 +1295,7 @@
   },
   {
     "guid": {
-      "a": "05905f64-9afd-860d-a868-3c69f018ac1b",
+      "a": "0bf8ee9b-3ca5-43c1-15b3-3920ad03599d",
       "b": ""
     },
     "objGuid": "Guid(4717539696261098447, 7956357896961728698)",
@@ -1312,13 +1316,13 @@
   },
   {
     "guid": {
-      "a": "f3304a40-02f6-af9b-39b6-daf4dae07a4f",
+      "a": "70a6da84-39e7-a9b3-c07d-9aea5f23f988",
       "b": ""
     },
     "objGuid": "Guid(5367069021662819408, 5691619705907822218)",
     "extraType": "Text2D",
     "name": "文字",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "rttiType": "Text",
     "editable": true,
     "_lazyUpgrateVersion": "1.0.0",
@@ -1335,11 +1339,12 @@
     "outAnimationAssetID": "",
     "inAnimationDuration": 0,
     "loopAnimationDuration": 0,
-    "outAnimationDuration": 0
+    "outAnimationDuration": 0,
+    "templateId": ""
   },
   {
     "guid": {
-      "a": "8b544462-1feb-712a-aff0-16570dcc6122",
+      "a": "4e759a06-fcef-80b7-da30-f8577a9c0879",
       "b": ""
     },
     "objGuid": "Guid(5747785978102388749, 6448293732537414318)",

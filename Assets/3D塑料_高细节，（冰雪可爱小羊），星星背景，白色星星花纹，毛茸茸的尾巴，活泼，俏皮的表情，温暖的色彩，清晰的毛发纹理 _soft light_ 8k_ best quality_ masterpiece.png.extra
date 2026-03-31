@@ -1,0 +1,38 @@
+[
+  {
+    "guid": {
+      "a": "6ceb0d82-ad96-7159-745e-a36273aadbaf",
+      "b": ""
+    },
+    "extraType": "ResItemPNGImage",
+    "name": "3D塑料_高细节，（冰雪可爱小羊），星星背景，白色星星花纹，毛茸茸的尾巴，活泼，俏皮的表情，温暖的色彩，清晰的毛发纹理 _soft light_ 8k_ best quality_ masterpiece",
+    "version": "0.2.0",
+    "rttiType": "Texture",
+    "authorizationInfo": "",
+    "extendedInfo": {
+      "isVisibleInInspector": true,
+      "hideInPanel": false,
+      "expandInPanel": false
+    },
+    "compressionType": 0,
+    "compressQuality": 0,
+    "compressMaxResolution": 512,
+    "enableMipmap": false,
+    "filterMin": 1,
+    "filterMag": 1,
+    "filterMipmap": 0,
+    "wrapModeS": 0,
+    "wrapModeT": 0,
+    "wrapModeR": 0,
+    "premultiplyAlpha": false,
+    "objGuid": "",
+    "assetPackageID": "7574827959198973992",
+    "assetStudioData": {
+      "id": "7574827959198973992",
+      "styleTag": " ",
+      "type": "AIAsset_Image_AssetLibrary"
+    },
+    "resourceFilePath": "C:\\Users\\37289\\AppData\\Local\\DouyinAR\\Shared\\Cache\\AIGC\\aiAssetSquarePicture\\3D塑料_高细节，（冰雪可爱小羊），星星背景，白色星星花纹，毛茸茸的尾巴，活泼，俏皮的表情，温暖的色彩，清晰的毛发纹理 _soft light_ 8k_ best quality_ masterpiece.png",
+    "references": []
+  }
+]
